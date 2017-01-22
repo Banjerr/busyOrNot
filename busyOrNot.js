@@ -19,8 +19,8 @@ board.on('ready', function() {
 
   // get the current reading
   potPin.on('data', function(){
-    console.log(this.value);
+    potVal = this.value;
 
-    myServo.to(this.value);
+    myServo.to(angle);
   });
 });
