@@ -1,0 +1,30 @@
+{
+  "name": "busy-or-not",
+  "version": "1.0.0",
+  "description": "Simple program to move a servo",
+  "main": "busyOrNot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Banjerr/busyOrNot.git"
+  },
+  "keywords": [
+    "arduino",
+    "johnny-five",
+    "node",
+    "javascript",
+    "servo"
+  ],
+  "author": "Ben Redden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Banjerr/busyOrNot/issues"
+  },
+  "homepage": "https://github.com/Banjerr/busyOrNot#readme",
+  "dependencies": {
+    "johnny-five": "^0.10.6",
+    "underscore": "^1.8.3"
+  }
+}
