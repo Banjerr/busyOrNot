@@ -1,6 +1,8 @@
 # busyOrNot?
 
-Another Arduino exercise that I've re-factored to use Node js with the Johnny-Five library. I think I might use this as the basis for a "bed time traffic light" for my daughter; with the addition of some photo-resistors to check how much light is coming in.
+Another Arduino exercise that I've re-factored to use Node js with the Johnny-Five library. Basically, the little dial (potentiometer) speaks to the servo to tell it what it's "angle" should be; the idea was to have the servo arm point to a specific "state", to let others know if the person was busy or not.
+
+I think I might use this as the basis for a "bed time traffic light" for my daughter; with the addition of some photo-resistors to check how much light is coming in.
 
 ![pic!](https://github.com/Banjerr/busyOrNot/blob/master/busyOrNot.gif)
 
